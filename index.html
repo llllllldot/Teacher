@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Личный кабинет учителя - IT-cube "Солнечный"</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Навигация -->
+        <nav class="navbar">
+            <div class="nav-links">
+                <a href="#" class="nav-link">Главная</a>
+                <a href="#" class="nav-link">Направления</a>
+                <span class="separator">|</span>
+                <a href="#" class="nav-link">Достижения</a>
+                <span class="separator">|</span>
+                <a href="#" class="nav-link">Рейтинг</a>
+                <span class="separator">|</span>
+                <a href="#" class="nav-link">Кибермаркет</a>
+                <span class="separator">|</span>
+                <a href="#" class="nav-link">Дополнения</a>
+            </div>
+            <div class="auth-section">
+                <a href="#" class="auth-link">Вход</a>
+                <span class="separator">/</span>
+                <a href="#" class="auth-link">рег</a>
+            </div>
+        </nav>
+
+        <!-- Основной контент -->
+        <main class="main-content">
+            <h1>Личный кабинет учителя</h1>
+
+            <!-- Группы -->
+            <section class="section">
+                <h2>Группы</h2>
+                
+                <div class="groups-list">
+                    <div class="group">
+                        <div class="group-title">Название 1</div>
+                        <ul class="students">
+                            <li>Обучающийся 1</li>
+                            <li>Обучающийся 1</li>
+                            <li>Обучающийся 1</li>
+                            <li>Обучающийся 1</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="group">
+                        <div class="group-title">Название 2</div>
+                        <ul class="students">
+                            <li>Обучающийся 1</li>
+                            <li>Обучающийся 1</li>
+                            <li>Обучающийся 1</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="group">
+                        <div class="group-title">Название 3</div>
+                        <ul class="students">
+                            <li>Обучающийся 1</li>
+                            <li>Обучающийся 1</li>
+                            <li>Обучающийся 1</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="group">
+                        <div class="group-title">Название 4</div>
+                        <ul class="students">
+                            <li>Обучающийся 1</li>
+                            <li>Обучающийся 1</li>
+                            <li>Обучающийся 1</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <hr>
+
+            <!-- Начисление кубиков -->
+            <section class="section">
+                <h3>Начисление кубиков и достижений</h3>
+                <p class="description">Выберите ученика из списка выше и выберите сумму кубиков или достижение для исчисления.</p>
+                
+                <div class="award-container">
+                    <div class="award-box">
+                        <div class="student-info">
+                            <div class="student-name">Обучающийся 1</div>
+                            <div class="student-username">Guard&yuangreen2000</div>
+                        </div>
+                        <input type="text" class="input-field" placeholder="Вводите сумму">
+                        <button class="btn">Начислить</button>
+                    </div>
+                    
+                    <div class="award-box">
+                        <div class="student-info">
+                            <div class="student-name">Обучающийся 1</div>
+                            <select class="select-field">
+                                <option>Выберите достижение</option>
+                            </select>
+                        </div>
+                        <button class="btn">Начислить</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Лекции -->
+            <section class="section">
+                <h2>Лекции</h2>
+                
+                <div class="lectures-list">
+                    <div class="lecture">
+                        <div class="lecture-teacher">Преподаватель: вода</div>
+                        <ul class="lecture-details">
+                            <li>Очень интересна 10/10</li>
+                            <li>Оповещение всех учеников группы: вид</li>
+                            <li>Сумма кубиков за прочтение</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="lecture">
+                        <div class="lecture-teacher">Преподаватель: вера</div>
+                        <ul class="lecture-details">
+                            <li>Очень интересна 10/10</li>
+                            <li>Оповещение всех учеников группы: вид</li>
+                            <li>150 кубиков</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="lecture">
+                        <div class="lecture-teacher">Преподаватель: ксеня</div>
+                        <ul class="lecture-details">
+                            <li>Очень интересна 10/10</li>
+                            <li>Оповещение всех учеников группы: вид</li>
+                            <li>150 кубиков</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="lecture create-lecture">
+                        <div class="lecture-teacher">Преподаватель: файл</div>
+                        <div class="create-text">«Создать лекцию»</div>
+                    </div>
+                </div>
+                
+                <div class="lecture-dates">
+                    <div class="date-item">
+                        <div class="date-range">16.09–20.10</div>
+                        <div class="file-name">Файл</div>
+                    </div>
+                    <div class="date-item">
+                        <div class="date-range">12.11–14.11</div>
+                        <div class="file-name">Файл</div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Футер -->
+        <footer>
+            <p>ТТ+Сифо "Солнечный" © 2025. Все права защищены.</p>
+            <p>Главный специалист учебного процесса в ТТ+сфере</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
